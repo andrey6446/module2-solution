@@ -1,0 +1,27 @@
+.row > section {
+ padding: 10px;
+}
+.block {
+    height: 700px;
+    margin-bottom: 30px;
+    background-color: #686;
+    padding: 5px 10px 5px;
+}.container {
+    margin-top: 70px;
+}
+nav {
+    opacity: .8;
+}
+.btn{
+    display: block;
+}
+section a {
+    margin: auto;
+    text-align: center; 
+}
+@media (max-width: 768px) {
+    .row {
+        margin: auto;
+        width: 80%;
+    }
+}
